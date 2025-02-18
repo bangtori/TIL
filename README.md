@@ -9,3 +9,5 @@ Today I Learned
 - 2025.02.03 [init에 throws를 포함하여 안전하게 초기화하기](./iOS/init에%20throws를%20포함하여%20안전하게%20초기화하기.md)
 
 - 2025.02.13 [Swift Dictionary의 default 활용하기](./Swift/딕셔너리%20default%20Value활용하기.md)
+
+- 2025.02.18 [Dual Heap (최대힙 + 최소힙)](<./알고리즘/Dual%20Heap(최대힙%20+%20최소힙).md>)
