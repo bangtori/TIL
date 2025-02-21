@@ -11,3 +11,5 @@ Today I Learned
 - 2025.02.13 [Swift Dictionary의 default 활용하기](./Swift/딕셔너리%20default%20Value활용하기.md)
 
 - 2025.02.18 [Dual Heap (최대힙 + 최소힙)](<./알고리즘/Dual%20Heap(최대힙%20+%20최소힙).md>)
+
+- 2025.02.21 [유니온파인드 문제 해결](./알고리즘/유니온파인드.md)
