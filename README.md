@@ -20,3 +20,4 @@ Today I Learned
 
 - 2025.03.21 [앱 출시를 위한 서버 URL 분리 (Debug / Dev / Release 환경별 관리)](./iOS/앱%20출시를%20위한%20서버%20분리와%20.xcconfig%20설정.md)
 - 2025.03.21 [Git Flow 기반 릴리즈 및 핫픽스 전략 정리](./Git/Git%20Flow%20기반%20릴리즈%20및%20핫픽스%20전략%20정리.md)
+- 2025.04.05[Ping Pong으로 WebSocket 연결 유지하기](./iOS/Ping%20Pong으로%20WebSocket%20연결%20유지하기.md)
