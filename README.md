@@ -26,3 +26,4 @@ Today I Learned
 - 2025.04.30 [async await의 비동기 순서 제어](./Swift/async,await의%20순서%20제어.md)
 - 2025.06.23 [HIG정리-iOS디자인 가이드](./HIG/OS별%20디자인%20가이드/iOS%20디자인%20가이드.md)
 - 2025.06.27 [HIG정리-iPadOS 디자인 가이드](./HIG/OS별%20디자인%20가이드/iPadOS%20디자인%20가이드.md)
+- 2025.06.30 [HIG정리-macOS 디자인 가이드](./HIG/OS별%20디자인%20가이드/macOS%20디자인%20가이드.md)
