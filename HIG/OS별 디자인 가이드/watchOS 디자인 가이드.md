@@ -7,11 +7,11 @@
 
 https://developer.apple.com/design/human-interface-guidelines/designing-for-watchos
 
-## 💻 macOS 디자인 개요
+## 💻 watchOS 디자인 개요
 
 watchOS는 **“간결하고 직관적인 정보 전달 + 빠른 조작(moments of glance)”** 중심의 플랫폼입니다
 
-## macOS 디바이스의 주요 특징과 설계 고려사항
+## watchOS 디바이스의 주요 특징과 설계 고려사항
 
 ### 🖥️ 디스플레이
 
@@ -73,7 +73,7 @@ watchOS는 **“간결하고 직관적인 정보 전달 + 빠른 조작(moments 
 
 ---
 
-### 🧩 시스템 기능 (iOS 고유 기능)
+### 🧩 시스템 기능
 
 #### 📌 애플 문서 기반 요약
 
