@@ -6,6 +6,20 @@ Q. 주소창에 google.com을 입력하면 일어나는 과정을 설명해주�
 
 - 포인트: DNS 조회 → TCP/TLS 핸드쉐이크 → HTTP 요청/응답 → 렌더링 과정 순으로 답변
 
+A.
+
+1. URL 파싱: 브라우저는 입력된 주소를 확인하고 HSTS 목록을 참조해 HTTP를 HTTPS로 전환하거나 유효성을 검사합니다.
+
+2. DNS 조회: 브라우저/OS 캐시를 먼저 확인하고, 없다면 DNS 서버를 통해 도메인명에 해당하는 IP 주소를 찾아냅니다.
+
+3. 연결 수립: 해당 IP의 서버와 TCP 3-Way Handshake를 통해 연결을 설정하고, HTTPS라면 TLS Handshake를 추가로 거쳐 보안 연결을 마칩니다.
+
+4. 요청 및 응답: 브라우저가 HTTP GET 요청을 보내면, 서버(웹 서버/WAS)는 해당 리소스를 찾아 응답합니다.
+
+5. 브라우저 렌더링: 브라우저는 받은 HTML/CSS를 파싱해 DOM/CSSOM 트리를 만들고, 이를 합친 Render Tree를 기반으로 Layout(배치)과 Paint(그리기) 과정을 거쳐 화면을 출력합니다. 중간에 JS를 만나면 파싱을 멈추고 엔진이 코드를 실행합니다..
+
+---
+
 Q. Critical Rendering Path(주요 렌더링 경로)의 단계를 설명해주세요.
 
 - 포인트: DOM 트리 생성 → CSSOM 트리 생성 → Render Tree 생성 → Layout → Paint 단계를 정확히 짚어야 함
